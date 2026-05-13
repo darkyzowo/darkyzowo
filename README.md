@@ -75,8 +75,8 @@ Visa      : Graduate visa (open to sponsorship)
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=darkyzowo&show_icons=true&hide_border=true&bg_color=1E1E2E&title_color=CBA6F7&icon_color=CBA6F7&text_color=CDD6F4&ring_color=CBA6F7" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=darkyzowo&layout=compact&hide_border=true&bg_color=1E1E2E&title_color=CBA6F7&text_color=CDD6F4" height="165"/>
+<img src="https://streak-stats.demolab.com/?user=darkyzowo&theme=catppuccin-mocha&hide_border=true&background=1E1E2E&ring=CBA6F7&fire=F38BA8&currStreakLabel=CBA6F7" width="49%"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=darkyzowo&layout=compact&hide_border=true&bg_color=1E1E2E&title_color=CBA6F7&text_color=CDD6F4&langs_count=6" width="49%"/>
 
 </div>
 
