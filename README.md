@@ -9,7 +9,7 @@
  ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝
 ```
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3500&pause=1000&color=CBA6F7&center=true&vCenter=true&random=false&width=700&lines=GRC+%26+Compliance+Practitioner;Security+Engineer+%26+Builder;ISO+27001+%7C+SOC+2+%7C+GDPR+%7C+Vendor+Risk)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=700&size=22&duration=3500&pause=1000&color=CBA6F7&center=true&vCenter=true&random=false&width=700&lines=GRC+%26+Compliance+Practitioner;Security+Engineer+%26+Builder;ISO+27001+%7C+SOC+2+%7C+GDPR+%7C+Vendor+Risk)](https://git.io/typing-svg)
 
 <br/>
 
@@ -68,27 +68,6 @@ Visa      : Graduate visa (open to sponsorship)
 ![Node.js](https://img.shields.io/badge/Node.js-A6E3A1?style=flat-square&logo=nodedotjs&logoColor=1E1E2E)
 ![Linux](https://img.shields.io/badge/Linux-F9E2AF?style=flat-square&logo=linux&logoColor=1E1E2E)
 ![MySQL](https://img.shields.io/badge/MySQL-89B4FA?style=flat-square&logo=mysql&logoColor=1E1E2E)
-
----
-
-### `> ./stats.sh`
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com/?user=darkyzowo&theme=catppuccin-mocha&hide_border=true&background=1E1E2E&ring=CBA6F7&fire=F38BA8&currStreakLabel=CBA6F7" width="49%"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=darkyzowo&layout=compact&hide_border=true&bg_color=1E1E2E&title_color=CBA6F7&text_color=CDD6F4&langs_count=6" width="49%"/>
-
-</div>
-
----
-
-### `> ./contrib.sh`
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=darkyzowo&bg_color=1E1E2E&color=CBA6F7&line=CBA6F7&point=F38BA8&area=true&area_color=CBA6F7&hide_border=true" width="100%"/>
-
-</div>
 
 ---
 
