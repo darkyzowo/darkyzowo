@@ -9,7 +9,7 @@
  ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝
 ```
 
-[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=700&size=22&duration=3500&pause=1000&color=CBA6F7&center=true&vCenter=true&random=false&width=700&lines=GRC+%26+Compliance+Practitioner;Security+Engineer+%26+Builder;ISO+27001+%7C+SOC+2+%7C+GDPR+%7C+Vendor+Risk)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=700&size=22&duration=3500&pause=1000&color=7D4E24&center=true&vCenter=true&random=false&width=700&lines=GRC+%26+Compliance+Practitioner;Security+Engineer+%26+Builder;ISO+27001+%7C+SOC+2+%7C+GDPR+%7C+Vendor+Risk)](https://git.io/typing-svg)
 
 <br/>
 
@@ -48,11 +48,11 @@ Visa      : Graduate visa (open to sponsorship)
 
 **GRC & Security**
 
-![ISO 27001](https://img.shields.io/badge/ISO_27001-CBA6F7?style=flat-square&logoColor=1E1E2E)
+![ISO 27001](https://img.shields.io/badge/ISO_27001-CBA6F7?style=flat-square&logoColor=7D4E24)
 ![SOC 2](https://img.shields.io/badge/SOC_2-CBA6F7?style=flat-square&logoColor=1E1E2E)
 ![Cyber Essentials](https://img.shields.io/badge/Cyber_Essentials-CBA6F7?style=flat-square)
-![GDPR](https://img.shields.io/badge/GDPR-CBA6F7?style=flat-square)
-![NIST](https://img.shields.io/badge/NIST-CBA6F7?style=flat-square)
+![GDPR](https://img.shields.io/badge/GDPR-FEAFEA?style=flat-square)
+![NIST](https://img.shields.io/badge/NIST-FFEEEE?style=flat-square)
 ![Splunk](https://img.shields.io/badge/Splunk-000000?style=flat-square&logo=splunk&logoColor=CBA6F7)
 ![Chronicle SIEM](https://img.shields.io/badge/Chronicle_SIEM-89B4FA?style=flat-square&logo=google&logoColor=1E1E2E)
 ![Bitdefender](https://img.shields.io/badge/Bitdefender-F38BA8?style=flat-square)
