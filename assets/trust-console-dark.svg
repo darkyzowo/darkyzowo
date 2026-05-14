@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 340" role="img" aria-label="Syed Zarak Hassan, Trust Console" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="bgD" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1B1B2A"/>
+      <stop offset="100%" stop-color="#11111B"/>
+    </linearGradient>
+    <linearGradient id="nameD" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#CDD6F4"/>
+      <stop offset="55%"  stop-color="#CBA6F7"/>
+      <stop offset="100%" stop-color="#F5C2E7"/>
+    </linearGradient>
+    <radialGradient id="spotD" cx="50%" cy="58%" r="55%">
+      <stop offset="0%"   stop-color="#CBA6F7" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#CBA6F7" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hairlineD" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#313244" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#45475A" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#313244" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- frame -->
+  <rect width="1600" height="340" rx="22" fill="url(#bgD)"/>
+  <rect width="1600" height="340" rx="22" fill="url(#spotD)"/>
+  <rect x="0.5" y="0.5" width="1599" height="339" rx="22" fill="none" stroke="#313244" stroke-width="1"/>
+
+  <!-- window chrome -->
+  <g transform="translate(30,28)">
+    <circle cx="0"  cy="0" r="6.5" fill="#F38BA8"/>
+    <circle cx="22" cy="0" r="6.5" fill="#F9E2AF"/>
+    <circle cx="44" cy="0" r="6.5" fill="#A6E3A1"/>
+  </g>
+  <g transform="translate(118, 18)">
+    <rect width="360" height="22" rx="6" fill="#1E1E2E" stroke="#313244"/>
+    <text x="180" y="15" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#7F849C">~/zarak_os/trust-console</text>
+  </g>
+
+  <!-- top hairline -->
+  <line x1="22" y1="60" x2="1578" y2="60" stroke="url(#hairlineD)" stroke-width="1"/>
+
+  <!-- ambient session log, left -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#45475A" transform="translate(40, 92)">
+    <text y="0">$ ./init zarak_os</text>
+    <text y="18">[ ok ]  grc.engine</text>
+    <text y="36">[ ok ]  vendor.portfolio</text>
+    <text y="54">[ ok ]  customer.trust</text>
+    <text y="72">[ ok ]  endpoint.layer</text>
+    <text y="90">[ ok ]  build.modules</text>
+    <text y="108"><tspan fill="#6C7086">[ sys ]</tspan> <tspan fill="#A6E3A1">ready_</tspan></text>
+  </g>
+
+  <!-- ambient status, right -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#45475A" transform="translate(1560, 92)" text-anchor="end">
+    <text y="0">node . nottingham-uk</text>
+    <text y="18">role . compliance.analyst</text>
+    <text y="36">build . venderscope</text>
+    <text y="54">build . contraai</text>
+    <text y="72">build . zarak_os</text>
+    <text y="108"><tspan fill="#CBA6F7">open_to_roles</tspan> <tspan fill="#6C7086">█</tspan></text>
+  </g>
+
+  <!-- main column -->
+  <g text-anchor="middle">
+    <text x="800" y="118" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#CBA6F7" letter-spacing="4">ZARAK_OS  //  TRUST CONSOLE</text>
+    <text x="800" y="202" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="72" font-weight="800" fill="url(#nameD)" letter-spacing="3">SYED ZARAK HASSAN</text>
+    <text x="800" y="244" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#A6ADC8" letter-spacing="6">GRC   ·   CUSTOMER TRUST   ·   SECURITY TOOLING   ·   BUILDER</text>
+  </g>
+
+  <!-- bottom hairline -->
+  <line x1="22" y1="280" x2="1578" y2="280" stroke="url(#hairlineD)" stroke-width="1"/>
+
+  <!-- footer caption -->
+  <g text-anchor="middle">
+    <text x="800" y="306" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#6C7086" letter-spacing="2">vendor risk · customer trust · iso evidence · endpoint posture · workflow tooling</text>
+  </g>
+</svg>
