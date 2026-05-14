@@ -48,7 +48,8 @@ $ ./init-zarak-os
 ```yaml
 name: Syed Zarak Hassan
 location: Nottingham, United Kingdom
-current_role: Compliance Analyst @ Thrive Learning
+current_role: Compliance Analyst @ Thrive Learning (1 Year)
+previous role: Project & Customer Acquistion Lead @ Nexique Design (3 Years)
 education:
   - MSc Cyber Security, Nottingham Trent University
   - BSc Software Engineering, Iqra National University
