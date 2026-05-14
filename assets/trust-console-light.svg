@@ -18,14 +18,44 @@
       <stop offset="50%"  stop-color="#ACB0BE" stop-opacity="1"/>
       <stop offset="100%" stop-color="#BCC0CC" stop-opacity="0"/>
     </linearGradient>
+    <linearGradient id="sweepL" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#8839EF" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#8839EF" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#8839EF" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="topClipL">
+      <rect x="22" y="55" width="1556" height="12"/>
+    </clipPath>
+    <style>
+      .log-line { opacity: 0; animation: bootFade 0.35s ease-out forwards; }
+      .log-1 { animation-delay: 0.15s; }
+      .log-2 { animation-delay: 0.35s; }
+      .log-3 { animation-delay: 0.55s; }
+      .log-4 { animation-delay: 0.75s; }
+      .log-5 { animation-delay: 0.95s; }
+      .log-6 { animation-delay: 1.15s; }
+      .log-7 { animation-delay: 1.35s; }
+      @keyframes bootFade {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+      }
+      .cursor { animation: blink 1.05s steps(2, start) infinite; }
+      @keyframes blink {
+        0%, 50%      { opacity: 1; }
+        50.01%, 100% { opacity: 0; }
+      }
+      .sweep { animation: sweep 9s linear infinite; }
+      @keyframes sweep {
+        0%   { transform: translateX(-300px); }
+        100% { transform: translateX(1600px); }
+      }
+    </style>
   </defs>
 
-  <!-- frame -->
   <rect width="1600" height="340" rx="22" fill="url(#bgL)"/>
   <rect width="1600" height="340" rx="22" fill="url(#spotL)"/>
   <rect x="0.5" y="0.5" width="1599" height="339" rx="22" fill="none" stroke="#BCC0CC" stroke-width="1"/>
 
-  <!-- window chrome -->
   <g transform="translate(30,28)">
     <circle cx="0"  cy="0" r="6.5" fill="#D20F39"/>
     <circle cx="22" cy="0" r="6.5" fill="#DF8E1D"/>
@@ -36,41 +66,39 @@
     <text x="180" y="15" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#8C8FA1">~/zarak_os/trust-console</text>
   </g>
 
-  <!-- top hairline -->
   <line x1="22" y1="60" x2="1578" y2="60" stroke="url(#hairlineL)" stroke-width="1"/>
 
-  <!-- ambient session log, left -->
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#ACB0BE" transform="translate(40, 92)">
-    <text y="0">$ ./init zarak_os</text>
-    <text y="18">[ ok ]  grc.engine</text>
-    <text y="36">[ ok ]  vendor.portfolio</text>
-    <text y="54">[ ok ]  customer.trust</text>
-    <text y="72">[ ok ]  endpoint.layer</text>
-    <text y="90">[ ok ]  build.modules</text>
-    <text y="108"><tspan fill="#9CA0B0">[ sys ]</tspan> <tspan fill="#40A02B">ready_</tspan></text>
+  <g clip-path="url(#topClipL)">
+    <rect class="sweep" x="0" y="59" width="300" height="2" fill="url(#sweepL)"/>
   </g>
 
-  <!-- ambient status, right -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#ACB0BE" transform="translate(40, 92)">
+    <text y="0"   class="log-line log-1">$ ./init zarak_os</text>
+    <text y="18"  class="log-line log-2">[ ok ]  grc.engine</text>
+    <text y="36"  class="log-line log-3">[ ok ]  vendor.portfolio</text>
+    <text y="54"  class="log-line log-4">[ ok ]  customer.trust</text>
+    <text y="72"  class="log-line log-5">[ ok ]  endpoint.layer</text>
+    <text y="90"  class="log-line log-6">[ ok ]  build.modules</text>
+    <text y="108" class="log-line log-7"><tspan fill="#9CA0B0">[ sys ]</tspan> <tspan fill="#40A02B">ready_</tspan></text>
+  </g>
+
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#ACB0BE" transform="translate(1560, 92)" text-anchor="end">
     <text y="0">node . nottingham-uk</text>
     <text y="18">role . compliance.analyst</text>
     <text y="36">build . venderscope</text>
     <text y="54">build . contraai</text>
     <text y="72">build . zarak_os</text>
-    <text y="108"><tspan fill="#8839EF">open_to_roles</tspan> <tspan fill="#9CA0B0">█</tspan></text>
+    <text y="108"><tspan fill="#8839EF">open_to_roles</tspan> <tspan class="cursor" fill="#8839EF">█</tspan></text>
   </g>
 
-  <!-- main column -->
   <g text-anchor="middle">
     <text x="800" y="118" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#8839EF" letter-spacing="4">ZARAK_OS  //  TRUST CONSOLE</text>
     <text x="800" y="202" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="72" font-weight="800" fill="url(#nameL)" letter-spacing="3">SYED ZARAK HASSAN</text>
     <text x="800" y="244" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#6C6F85" letter-spacing="6">GRC   ·   CUSTOMER TRUST   ·   SECURITY TOOLING   ·   BUILDER</text>
   </g>
 
-  <!-- bottom hairline -->
   <line x1="22" y1="280" x2="1578" y2="280" stroke="url(#hairlineL)" stroke-width="1"/>
 
-  <!-- footer caption -->
   <g text-anchor="middle">
     <text x="800" y="306" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#9CA0B0" letter-spacing="2">vendor risk · customer trust · iso evidence · endpoint posture · workflow tooling</text>
   </g>
