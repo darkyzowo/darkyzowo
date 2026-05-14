@@ -22,7 +22,7 @@
 
 ### `> whoami`
 
-​```yaml
+```yaml
 name:     Syed Zarak Hassan
 location: Nottingham, United Kingdom
 role:     Compliance Analyst @ Thrive Learning
@@ -31,7 +31,7 @@ study:    MSc Cyber Security, Nottingham Trent University
 focus:    GRC · customer trust · security tooling · product thinking
 open_to:  GRC · customer trust · technical CSM · security analyst
           · compliance engineering  (UK)
-​```
+```
 
 ---
 
@@ -64,7 +64,7 @@ Built when spreadsheets and screenshots stopped scaling.
 
 ### `> how-i-think`
 
-​```txt
+```txt
 Good compliance is not paperwork theatre. It answers four questions:
 
     what risk exists?
@@ -73,7 +73,7 @@ Good compliance is not paperwork theatre. It answers four questions:
     what changed since the last review?
 
 If the answer takes a week and a spreadsheet, the process is the bug.
-​```
+```
 
 ---
 
