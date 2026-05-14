@@ -1,9 +1,8 @@
 <div align="center">
 
-<!-- Replace this with your actual animated capsule banner asset -->
 <img
-  src="https://raw.githubusercontent.com/darkyzowo/darkyzowo/main/assets/capsule-banner.gif"
-  alt="Zarak Hassan capsule banner"
+  src="./assets/capsule-banner.svg"
+  alt="Zarak Hassan - GRC Security Engineer Builder"
   width="100%"
 />
 
