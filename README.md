@@ -1,10 +1,6 @@
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/trust-console-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/trust-console-light.svg" />
-  <img src="./assets/trust-console-dark.svg" alt="Syed Zarak Hassan, Trust Console" width="100%" />
-</picture>
+<img src="./assets/trust-console-dark.svg" alt="Syed Zarak Hassan, Trust Console" width="100%" />
 
 <samp>I work where customer trust, compliance evidence, and security tooling overlap.</samp>
 
@@ -26,7 +22,7 @@
 
 ### `> whoami`
 
-```yaml
+​```yaml
 name:     Syed Zarak Hassan
 location: Nottingham, United Kingdom
 role:     Compliance Analyst @ Thrive Learning
@@ -35,7 +31,7 @@ study:    MSc Cyber Security, Nottingham Trent University
 focus:    GRC · customer trust · security tooling · product thinking
 open_to:  GRC · customer trust · technical CSM · security analyst
           · compliance engineering  (UK)
-```
+​```
 
 ---
 
@@ -68,7 +64,7 @@ Built when spreadsheets and screenshots stopped scaling.
 
 ### `> how-i-think`
 
-```txt
+​```txt
 Good compliance is not paperwork theatre. It answers four questions:
 
     what risk exists?
@@ -77,7 +73,7 @@ Good compliance is not paperwork theatre. It answers four questions:
     what changed since the last review?
 
 If the answer takes a week and a spreadsheet, the process is the bug.
-```
+​```
 
 ---
 
