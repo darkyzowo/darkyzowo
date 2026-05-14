@@ -1,0 +1,248 @@
+<svg width="1600" height="520" viewBox="0 0 1600 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pageBg" x1="0" y1="0" x2="1600" y2="520">
+      <stop offset="0%" stop-color="#0B0F17"/>
+      <stop offset="50%" stop-color="#11111B"/>
+      <stop offset="100%" stop-color="#181825"/>
+    </linearGradient>
+
+    <linearGradient id="capsuleBg" x1="80" y1="70" x2="1520" y2="450">
+      <stop offset="0%" stop-color="#11111B"/>
+      <stop offset="45%" stop-color="#181825"/>
+      <stop offset="100%" stop-color="#1E1E2E"/>
+    </linearGradient>
+
+    <linearGradient id="venom" x1="150" y1="40" x2="1450" y2="480">
+      <stop offset="0%" stop-color="#89B4FA">
+        <animate attributeName="stop-color" values="#89B4FA;#CBA6F7;#F5C2E7;#89B4FA" dur="9s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="48%" stop-color="#CBA6F7">
+        <animate attributeName="stop-color" values="#CBA6F7;#F5C2E7;#89DCEB;#CBA6F7" dur="10s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#F38BA8">
+        <animate attributeName="stop-color" values="#F38BA8;#FAB387;#89B4FA;#F38BA8" dur="11s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <linearGradient id="scanLine" x1="0" y1="0" x2="1600" y2="0">
+      <stop offset="0%" stop-color="#89B4FA" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#CBA6F7" stop-opacity="0.4"/>
+      <stop offset="55%" stop-color="#F5C2E7" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#F38BA8" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#CBA6F7" stop-opacity="0.32"/>
+      <stop offset="55%" stop-color="#89B4FA" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#11111B" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="textGlow" x="-20%" y="-30%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="0" stdDeviation="2" flood-color="#CDD6F4" flood-opacity="0.45"/>
+      <feDropShadow dx="0" dy="6" stdDeviation="14" flood-color="#000000" flood-opacity="0.75"/>
+    </filter>
+
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="16" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 0.06"/>
+      </feComponentTransfer>
+    </filter>
+
+    <clipPath id="capsuleClip">
+      <rect x="80" y="70" width="1440" height="380" rx="92"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    .mono {
+      font-family: "Fira Code", "JetBrains Mono", "Cascadia Code", "SFMono-Regular", Consolas, monospace;
+    }
+
+    .title {
+      font-size: 92px;
+      font-weight: 900;
+      letter-spacing: 18px;
+      fill: #F5F7FF;
+    }
+
+    .subtitle {
+      font-size: 30px;
+      font-weight: 800;
+      letter-spacing: 7px;
+      fill: #E6E9FF;
+    }
+
+    .terminal {
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      fill: #CDD6F4;
+    }
+
+    .muted {
+      fill: #A6ADC8;
+    }
+
+    .ok {
+      fill: #A6E3A1;
+    }
+
+    .accent {
+      fill: #CBA6F7;
+    }
+
+    .scan {
+      animation: scanMove 6s ease-in-out infinite;
+    }
+
+    .floatA {
+      animation: floatA 13s ease-in-out infinite;
+      transform-origin: center;
+    }
+
+    .floatB {
+      animation: floatB 16s ease-in-out infinite;
+      transform-origin: center;
+    }
+
+    .floatC {
+      animation: floatC 18s ease-in-out infinite;
+      transform-origin: center;
+    }
+
+    .blink {
+      animation: blink 1s steps(2, start) infinite;
+    }
+
+    @keyframes scanMove {
+      0% { transform: translateX(-1350px); opacity: 0; }
+      15% { opacity: 1; }
+      55% { opacity: 1; }
+      100% { transform: translateX(1350px); opacity: 0; }
+    }
+
+    @keyframes floatA {
+      0%, 100% { transform: translate(0px, 0px) scale(1); }
+      50% { transform: translate(32px, -18px) scale(1.04); }
+    }
+
+    @keyframes floatB {
+      0%, 100% { transform: translate(0px, 0px) scale(1); }
+      50% { transform: translate(-30px, 24px) scale(1.06); }
+    }
+
+    @keyframes floatC {
+      0%, 100% { transform: translate(0px, 0px) scale(1); }
+      50% { transform: translate(22px, 16px) scale(0.97); }
+    }
+
+    @keyframes blink {
+      0%, 45% { opacity: 1; }
+      46%, 100% { opacity: 0; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .scan, .floatA, .floatB, .floatC, .blink {
+        animation: none;
+      }
+    }
+  </style>
+
+  <rect width="1600" height="520" fill="url(#pageBg)"/>
+
+  <g opacity="0.7">
+    <circle cx="420" cy="245" r="260" fill="url(#glow)" class="floatA"/>
+    <circle cx="1190" cy="275" r="300" fill="url(#glow)" class="floatB"/>
+  </g>
+
+  <g clip-path="url(#capsuleClip)">
+    <rect x="80" y="70" width="1440" height="380" rx="92" fill="url(#capsuleBg)"/>
+
+    <path class="floatB" filter="url(#softGlow)" opacity="0.32" fill="#89DCEB">
+      <animate attributeName="d" dur="16s" repeatCount="indefinite"
+        values="
+        M80 155 C260 95 415 118 560 95 C760 62 900 150 1080 112 C1265 72 1380 90 1520 130 L1520 70 L80 70 Z;
+        M80 150 C250 118 410 45 585 115 C780 190 910 48 1090 92 C1265 132 1385 48 1520 118 L1520 70 L80 70 Z;
+        M80 176 C245 85 430 150 580 86 C790 6 925 152 1080 114 C1265 72 1380 116 1520 98 L1520 70 L80 70 Z;
+        M80 155 C260 95 415 118 560 95 C760 62 900 150 1080 112 C1265 72 1380 90 1520 130 L1520 70 L80 70 Z
+        "/>
+    </path>
+
+    <path class="floatA" filter="url(#softGlow)" opacity="0.28" fill="url(#venom)">
+      <animate attributeName="d" dur="13s" repeatCount="indefinite"
+        values="
+        M80 340 C260 245 390 220 540 250 C710 285 790 170 980 195 C1160 218 1255 305 1520 215 L1520 450 L80 450 Z;
+        M80 318 C260 190 425 292 560 230 C735 150 835 290 1010 255 C1200 218 1290 155 1520 280 L1520 450 L80 450 Z;
+        M80 355 C260 290 380 165 590 215 C760 255 850 350 1035 240 C1215 135 1340 300 1520 220 L1520 450 L80 450 Z;
+        M80 340 C260 245 390 220 540 250 C710 285 790 170 980 195 C1160 218 1255 305 1520 215 L1520 450 L80 450 Z
+        "/>
+    </path>
+
+    <path class="floatC" filter="url(#softGlow)" opacity="0.22" fill="#F5C2E7">
+      <animate attributeName="d" dur="18s" repeatCount="indefinite"
+        values="
+        M150 410 C350 350 500 420 680 365 C860 310 1000 390 1170 335 C1320 285 1410 335 1490 300 L1490 450 L150 450 Z;
+        M150 385 C350 290 520 390 690 335 C850 275 1000 310 1170 375 C1340 435 1425 305 1490 340 L1490 450 L150 450 Z;
+        M150 420 C340 390 490 295 680 360 C860 420 1000 285 1180 315 C1340 345 1425 420 1490 305 L1490 450 L150 450 Z;
+        M150 410 C350 350 500 420 680 365 C860 310 1000 390 1170 335 C1320 285 1410 335 1490 300 L1490 450 L150 450 Z
+        "/>
+    </path>
+
+    <g opacity="0.11">
+      <path d="M135 130H1465" stroke="#CDD6F4" stroke-width="1"/>
+      <path d="M135 190H1465" stroke="#CDD6F4" stroke-width="1"/>
+      <path d="M135 250H1465" stroke="#CDD6F4" stroke-width="1"/>
+      <path d="M135 310H1465" stroke="#CDD6F4" stroke-width="1"/>
+      <path d="M135 370H1465" stroke="#CDD6F4" stroke-width="1"/>
+    </g>
+
+    <rect class="scan" x="80" y="70" width="300" height="380" fill="url(#scanLine)" opacity="0.45"/>
+    <rect x="80" y="70" width="1440" height="380" rx="92" fill="url(#grain)" opacity="0.28"/>
+  </g>
+
+  <rect x="80" y="70" width="1440" height="380" rx="92" fill="none" stroke="#45475A" stroke-width="2"/>
+  <rect x="104" y="94" width="1392" height="332" rx="76" fill="none" stroke="#CBA6F7" stroke-opacity="0.22" stroke-width="2"/>
+
+  <rect x="245" y="150" width="1110" height="170" rx="34" fill="#0B0F17" fill-opacity="0.5" stroke="#CDD6F4" stroke-opacity="0.08"/>
+
+  <g class="mono" filter="url(#textGlow)">
+    <text x="800" y="225" text-anchor="middle" class="title">ZARAK HASSAN</text>
+    <text x="800" y="286" text-anchor="middle" class="subtitle">GRC · SECURITY ENGINEER · BUILDER</text>
+  </g>
+
+  <g class="mono">
+    <text x="178" y="382" class="terminal">
+      <tspan fill="#89B4FA">&gt;</tspan>
+      <tspan dx="14" class="muted">init_zarak_os</tspan>
+      <tspan dx="22" class="ok">[OK]</tspan>
+      <tspan dx="18" class="blink">█</tspan>
+    </text>
+
+    <text x="1422" y="382" text-anchor="end" class="terminal" opacity="0.9">
+      <tspan class="accent">ISO 27001</tspan>
+      <tspan class="muted"> · SOC 2 · VENDOR RISK</tspan>
+    </text>
+  </g>
+
+  <g opacity="0.9">
+    <circle cx="145" cy="120" r="4" fill="#A6E3A1">
+      <animate attributeName="opacity" values="0.25;1;0.25" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="170" cy="120" r="4" fill="#F9E2AF">
+      <animate attributeName="opacity" values="1;0.25;1" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="195" cy="120" r="4" fill="#F38BA8">
+      <animate attributeName="opacity" values="0.35;1;0.35" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>
