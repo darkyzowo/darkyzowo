@@ -17,39 +17,83 @@
 
 </div>
 
----
-
 > Compliance Analyst at **Thrive Learning**, based in Nottingham, UK. MSc Cyber Security (NTU) · BSc Software Engineering.
 > I work across vendor risk, customer trust, and compliance ops — then build the tooling that makes that work faster.
 
-## Building
+### Building
 
-**01 · [VenderScope](https://github.com/syed-hassan7/venderscope)**
+<table width="100%">
+<tr>
+<td colspan="2" valign="top">
+
+**[VenderScope →](https://github.com/syed-hassan7/venderscope)**
 
 24/7 passive risk intel for GRC teams. Swaps annual vendor reviews for continuous drift monitoring across a 50+ vendor portfolio — risk surfaces as it happens, not once a year.
 
 `Python` `Flask` `PostgreSQL`
 
-**02 · ContraAI** <sub>_private, Thrive-owned_</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**ContraAI** <sub>_private, Thrive-owned_</sub>
 
 AI-assisted contract review. Turns clause analysis from an afternoon slog into minutes.
 
 `Next.js` `Supabase` `Claude API`
 
-**03 · [claude-harness](https://github.com/syed-hassan7/claude-harness)**
+</td>
+<td width="50%" valign="top">
+
+**[claude-harness →](https://github.com/syed-hassan7/claude-harness)**
 
 Portable skill-and-rules pack for AI coding agents. 10x's the engineering loop, not just the autocomplete.
 
 `TypeScript` `Agent Tooling`
 
-## Experience
+</td>
+</tr>
+</table>
 
-- Redesigned company-wide DPA tracking, cutting time-to-approval by **70%**.
-- Built 6 process flows from scratch for a clean **ISO 9001** Stage 1 audit pass.
-- Led a Kandji MDM rollout across **250+ endpoints** with zero downtime, cutting IT tickets **40%**.
-- Own security questionnaires and RFIs across a **50+ vendor** portfolio.
+### Experience
 
----
+<table width="100%">
+<tr>
+
+<td align="center" width="20%">
+
+### 70%
+<sub>faster DPA time-to-approval</sub>
+
+</td>
+<td align="center" width="20%">
+
+### 6
+<sub>process flows built for ISO 9001 Stage 1</sub>
+
+</td>
+<td align="center" width="20%">
+
+### 250+
+<sub>endpoints migrated, zero downtime</sub>
+
+</td>
+<td align="center" width="20%">
+
+### -40%
+<sub>IT tickets after MDM rollout</sub>
+
+</td>
+<td align="center" width="20%">
+
+### 50+
+<sub>vendor portfolio — questionnaires & RFIs</sub>
+
+</td>
+
+</tr>
+</table>
 
 ### `> ./snake.sh`
 
@@ -68,7 +112,7 @@ Portable skill-and-rules pack for AI coding agents. 10x's the engineering loop, 
 
 </div>
 
----
+<br />
 
 <div align="center">
   <sub>
