@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/syed-hassan7/syed-hassan7/main/assets/radar-console.svg" alt="Syed Zarak Hassan — risk radar console" width="100%" />
+<img src="https://raw.githubusercontent.com/syed-hassan7/syed-hassan7/main/assets/radar-console.svg?v=2" alt="Syed Zarak Hassan — risk radar console" width="100%" />
 
 <br />
 <br />
