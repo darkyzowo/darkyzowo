@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/syed-hassan7/syed-hassan7/readme-redesign/assets/radar-console.svg" alt="Syed Zarak Hassan — risk radar console" width="100%" />
+<img src="https://raw.githubusercontent.com/syed-hassan7/syed-hassan7/main/assets/radar-console.svg" alt="Syed Zarak Hassan — risk radar console" width="100%" />
 
 <br />
 <br />
@@ -15,10 +15,6 @@
   <img src="https://img.shields.io/badge/Email-F38BA8?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
 </a>
 
-</div>
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/syed-hassan7/syed-hassan7/readme-redesign/assets/thesis-strip.svg" alt="GRC by trade. I build the tools I wish existed. — Compliance Analyst at Thrive Learning, Nottingham UK, MSc Cyber Security (NTU), BSc Software Engineering" width="100%" />
 </div>
 
 ### Building
