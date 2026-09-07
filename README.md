@@ -1,18 +1,11 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/syed-hassan7/syed-hassan7/main/assets/ascii-portrait-final.svg" alt="ASCII terminal render of Syed Zarak Hassan" width="380" />
+<img src="https://raw.githubusercontent.com/syed-hassan7/syed-hassan7/main/assets/capsule-banner.svg" alt="Syed Zarak Hassan — animated capsule banner" width="100%" />
 
-<br />
-
-### SYED ZARAK HASSAN
-
-<samp>GRC · CUSTOMER TRUST · SECURITY TOOLING · BUILDER</samp>
-
-<br />
 <br />
 
 <a href="https://github.com/syed-hassan7">
-  <img src="https://readme-typing-svg.demolab.com?font=VT323&size=26&pause=1500&color=39FF14&center=true&vCenter=true&width=780&lines=%3E+render_human.exe+--format%3Dascii+%5BOK%5D;GRC+by+trade.+I+build+the+tools+I+wish+existed.;Currently+shipping%3A+VenderScope%2C+ContraAI%2C+claude-harness." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=VT323&size=26&pause=1500&color=39FF14&center=true&vCenter=true&width=780&lines=%3E+init_zarak_os+--gateway+%5BOK%5D;GRC+by+trade.+I+build+the+tools+I+wish+existed.;Currently+shipping%3A+VenderScope%2C+ContraAI%2C+claude-harness." alt="Typing SVG" />
 </a>
 
 <br />
