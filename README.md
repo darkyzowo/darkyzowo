@@ -34,7 +34,8 @@
 <tr>
 <td width="50%" valign="top">
 
-**ContraAI** <sub>_private, Thrive-owned_</sub>
+**ContraAI**
+<sub>🔒 Internal Tool</sub>
 
 AI-assisted contract review. Turns clause analysis from an afternoon slog into minutes.
 
