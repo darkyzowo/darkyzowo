@@ -1,12 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/syed-hassan7/syed-hassan7/main/assets/capsule-banner.svg" alt="Syed Zarak Hassan — animated capsule banner" width="100%" />
-
-<br />
-
-<a href="https://github.com/syed-hassan7">
-  <img src="https://readme-typing-svg.demolab.com?font=VT323&size=26&pause=1500&color=39FF14&center=true&vCenter=true&width=780&lines=%3E+init_zarak_os+--gateway+%5BOK%5D;GRC+by+trade.+I+build+the+tools+I+wish+existed.;Currently+shipping%3A+VenderScope%2C+ContraAI%2C+claude-harness." alt="Typing SVG" />
-</a>
+<img src="https://raw.githubusercontent.com/syed-hassan7/syed-hassan7/readme-redesign/assets/radar-console.svg" alt="Syed Zarak Hassan — risk radar console" width="100%" />
 
 <br />
 <br />

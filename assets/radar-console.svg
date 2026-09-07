@@ -1,0 +1,138 @@
+<svg width="1600" height="420" viewBox="0 0 1600 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Syed Zarak Hassan — risk radar console">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="420">
+      <stop offset="0%" stop-color="#0B0F17"/>
+      <stop offset="55%" stop-color="#11111B"/>
+      <stop offset="100%" stop-color="#181825"/>
+    </linearGradient>
+
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#CDD6F4"/>
+      <stop offset="55%" stop-color="#CBA6F7"/>
+      <stop offset="100%" stop-color="#F5C2E7"/>
+    </linearGradient>
+
+    <linearGradient id="sweepGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#A6E3A1" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#A6E3A1" stop-opacity="0.55"/>
+    </linearGradient>
+
+    <linearGradient id="waveGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#89B4FA" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#CBA6F7" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#F5C2E7" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <clipPath id="frameClip">
+      <rect x="0" y="0" width="1600" height="420" rx="28"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    .mono { font-family: "Fira Code","JetBrains Mono","Cascadia Code",Consolas,monospace; }
+    .sans { font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+    .sweep { animation: spin 5.5s linear infinite; transform-origin: 350px 210px; }
+    .wave { animation: waveMove 6s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    @keyframes waveMove { 0% { transform: translateX(-260px); } 100% { transform: translateX(1860px); } }
+    @keyframes blink { 0%, 50% { opacity: 1; } 50.01%, 100% { opacity: 0; } }
+    .cursor { animation: blink 1.1s steps(2, start) infinite; }
+    @media (prefers-reduced-motion: reduce) {
+      .sweep, .wave, .cursor, .ping, .blip { animation: none !important; }
+    }
+  </style>
+
+  <g clip-path="url(#frameClip)">
+    <rect width="1600" height="420" fill="url(#bg)"/>
+
+    <!-- radar grid -->
+    <g stroke="#45475A" stroke-opacity="0.22">
+      <line x1="60" y1="210" x2="640" y2="210"/>
+      <line x1="350" y1="10" x2="350" y2="410"/>
+    </g>
+
+    <!-- radar rings -->
+    <g fill="none" stroke="#89B4FA" stroke-opacity="0.28">
+      <circle cx="350" cy="210" r="55"/>
+      <circle cx="350" cy="210" r="105"/>
+      <circle cx="350" cy="210" r="155"/>
+      <circle cx="350" cy="210" r="195"/>
+    </g>
+
+    <!-- radar pings -->
+    <circle class="ping" cx="350" cy="210" r="20" fill="none" stroke="#CBA6F7" stroke-width="2" opacity="0.6">
+      <animate attributeName="r" values="20;195" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.55;0" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle class="ping" cx="350" cy="210" r="20" fill="none" stroke="#89B4FA" stroke-width="2" opacity="0.6">
+      <animate attributeName="r" values="20;195" dur="4s" begin="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.55;0" dur="4s" begin="2s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- sweep beam -->
+    <g class="sweep" filter="url(#glow)">
+      <path d="M350 210 L350 15 A195 195 0 0 1 488 62 Z" fill="url(#sweepGrad)"/>
+    </g>
+
+    <!-- signal blips -->
+    <g>
+      <circle class="blip" cx="410" cy="140" r="5" fill="#A6E3A1">
+        <animate attributeName="opacity" values="0.25;1;0.25" dur="2.4s" repeatCount="indefinite"/>
+      </circle>
+      <circle class="blip" cx="250" cy="255" r="5" fill="#F5C2E7">
+        <animate attributeName="opacity" values="1;0.25;1" dur="2.8s" repeatCount="indefinite"/>
+      </circle>
+      <circle class="blip" cx="470" cy="270" r="4.5" fill="#89B4FA">
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="3.2s" repeatCount="indefinite"/>
+      </circle>
+      <circle class="blip" cx="300" cy="130" r="4" fill="#CBA6F7">
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="2.1s" repeatCount="indefinite"/>
+      </circle>
+      <circle class="blip" cx="200" cy="170" r="4" fill="#F38BA8">
+        <animate attributeName="opacity" values="0.3;0.9;0.3" dur="3.6s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <circle cx="350" cy="210" r="4" fill="#CDD6F4"/>
+
+    <!-- divider -->
+    <line x1="660" y1="60" x2="660" y2="360" stroke="#313244" stroke-width="1.5"/>
+
+    <!-- identity block -->
+    <g class="mono" fill="#A6ADC8">
+      <text x="700" y="108" font-size="13" letter-spacing="3" fill="#A6E3A1">RISK_MONITOR // LIVE</text>
+    </g>
+
+    <text x="698" y="180" class="sans" font-size="60" font-weight="800" letter-spacing="1" fill="url(#nameGrad)">SYED ZARAK HASSAN</text>
+
+    <text x="700" y="216" class="mono" font-size="15" letter-spacing="3" fill="#9399B2">GRC · CUSTOMER TRUST · SECURITY TOOLING · BUILDER</text>
+
+    <text x="700" y="266" class="sans" font-size="17" fill="#CDD6F4">Turning vendor risk from an annual review into a live signal.</text>
+    <text x="700" y="296" class="sans" font-size="17" fill="#CDD6F4">GRC by trade. I build the tools I wish existed.</text>
+
+    <g class="mono" font-size="13" fill="#6C7086">
+      <text x="700" y="345">
+        <tspan fill="#89B4FA">&gt;</tspan>
+        <tspan dx="10">scanning_portfolio</tspan>
+        <tspan dx="14" fill="#A6E3A1">[OK]</tspan>
+        <tspan dx="10" class="cursor" fill="#CDD6F4">█</tspan>
+      </text>
+    </g>
+
+    <!-- live signal wave along the bottom -->
+    <g clip-path="url(#frameClip)">
+      <path class="wave" d="M-260 400 q30 -22 60 0 t60 0 t60 0 t60 0 t60 0 t60 0 t60 0 t60 0 t60 0 t60 0 t60 0 t60 0 t60 0 t60 0 t60 0 t60 0 t60 0 t60 0 t60 0 t60 0 t60 0 t60 0"
+        stroke="url(#waveGrad)" stroke-width="2" fill="none" opacity="0.65"/>
+    </g>
+  </g>
+
+  <rect x="1" y="1" width="1598" height="418" rx="27" fill="none" stroke="#313244" stroke-width="2"/>
+</svg>
