@@ -17,8 +17,9 @@
 
 </div>
 
-> Compliance Analyst at **Thrive Learning**, based in Nottingham, UK. MSc Cyber Security (NTU) · BSc Software Engineering.
-> I work across vendor risk, customer trust, and compliance ops — then build the tooling that makes that work faster.
+<div align="center">
+<img src="https://raw.githubusercontent.com/syed-hassan7/syed-hassan7/readme-redesign/assets/thesis-strip.svg" alt="GRC by trade. I build the tools I wish existed. — Compliance Analyst at Thrive Learning, Nottingham UK, MSc Cyber Security (NTU), BSc Software Engineering" width="100%" />
+</div>
 
 ### Building
 
@@ -63,32 +64,32 @@ Portable skill-and-rules pack for AI coding agents. 10x's the engineering loop, 
 
 <td align="center" width="20%">
 
-### 70%
-<sub>faster DPA time-to-approval</sub>
+### ⚡ 70%
+<sub>faster DPA approval</sub>
 
 </td>
 <td align="center" width="20%">
 
-### 6
-<sub>process flows built for ISO 9001 Stage 1</sub>
+### 🧩 6
+<sub>ISO 9001 process flows</sub>
 
 </td>
 <td align="center" width="20%">
 
-### 250+
-<sub>endpoints migrated, zero downtime</sub>
+### 🖥️ 250+
+<sub>endpoints, zero downtime</sub>
 
 </td>
 <td align="center" width="20%">
 
-### -40%
-<sub>IT tickets after MDM rollout</sub>
+### 🎟️ -40%
+<sub>IT tickets post-MDM</sub>
 
 </td>
 <td align="center" width="20%">
 
-### 50+
-<sub>vendor portfolio — questionnaires & RFIs</sub>
+### 🛡️ 50+
+<sub>vendor portfolio owned</sub>
 
 </td>
 

@@ -1,0 +1,63 @@
+<svg width="1600" height="190" viewBox="0 0 1600 190" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Syed Zarak Hassan — statement of focus">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="190">
+      <stop offset="0%" stop-color="#0B0F17"/>
+      <stop offset="55%" stop-color="#11111B"/>
+      <stop offset="100%" stop-color="#181825"/>
+    </linearGradient>
+
+    <linearGradient id="barGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#89B4FA"/>
+      <stop offset="50%" stop-color="#CBA6F7"/>
+      <stop offset="100%" stop-color="#F5C2E7"/>
+    </linearGradient>
+
+    <linearGradient id="textGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#CDD6F4"/>
+      <stop offset="55%" stop-color="#CBA6F7"/>
+      <stop offset="100%" stop-color="#F5C2E7"/>
+    </linearGradient>
+
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="barGlow" x="-100%" y="-20%" width="300%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <clipPath id="clip"><rect x="0" y="0" width="1600" height="190" rx="24"/></clipPath>
+    <clipPath id="textClip"><text x="86" y="98" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="42" font-weight="800">GRC by trade. I build the tools I wish existed.</text></clipPath>
+  </defs>
+
+  <style>
+    .sheenMove { animation: sheenMove 7s ease-in-out infinite; }
+    @keyframes sheenMove {
+      0%   { transform: translateX(-500px); opacity: 0; }
+      15%  { opacity: 1; }
+      55%  { opacity: 1; }
+      100% { transform: translateX(1500px); opacity: 0; }
+    }
+    @media (prefers-reduced-motion: reduce) { .sheenMove { animation: none; } }
+  </style>
+
+  <g clip-path="url(#clip)">
+    <rect width="1600" height="190" fill="url(#bg)"/>
+
+    <rect x="40" y="34" width="7" height="122" rx="3.5" fill="url(#barGrad)" filter="url(#barGlow)"/>
+
+    <text x="86" y="98" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="42" font-weight="800" fill="url(#textGrad)">GRC by trade. I build the tools I wish existed.</text>
+
+    <g clip-path="url(#textClip)">
+      <rect class="sheenMove" x="0" y="34" width="220" height="90" fill="url(#sheen)"/>
+    </g>
+
+    <text x="87" y="140" font-family="Fira Code, 'JetBrains Mono', Consolas, monospace" font-size="16" fill="#9399B2">Compliance Analyst @ Thrive Learning · Nottingham, UK</text>
+    <text x="87" y="163" font-family="Fira Code, 'JetBrains Mono', Consolas, monospace" font-size="16" fill="#9399B2">MSc Cyber Security (NTU) · BSc Software Engineering</text>
+  </g>
+
+  <rect x="1" y="1" width="1598" height="188" rx="23" fill="none" stroke="#313244" stroke-width="2"/>
+</svg>
