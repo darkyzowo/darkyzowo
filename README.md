@@ -1,17 +1,18 @@
 <div align="center">
 
-<a href="https://zarak-os.vercel.app">
-  <img
-    src="https://raw.githubusercontent.com/syed-hassan7/syed-hassan7/output/operator-gateway.svg"
-    alt="ZARAK_OS Operator Gateway — Syed Zarak Hassan"
-    width="100%"
-  />
-</a>
+<img src="https://raw.githubusercontent.com/syed-hassan7/syed-hassan7/main/assets/ascii-portrait-final.svg" alt="ASCII terminal render of Syed Zarak Hassan" width="380" />
 
 <br />
 
+### SYED ZARAK HASSAN
+
+<samp>GRC · CUSTOMER TRUST · SECURITY TOOLING · BUILDER</samp>
+
+<br />
+<br />
+
 <a href="https://github.com/syed-hassan7">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1500&color=CBA6F7&center=true&vCenter=true&width=600&lines=GRC+by+trade.+I+build+the+tools+I+wish+existed.;Compliance+Analyst+who+ships+production+code.;Currently+building%3A+VenderScope%2C+ContraAI%2C+claude-harness." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=VT323&size=26&pause=1500&color=39FF14&center=true&vCenter=true&width=780&lines=%3E+render_human.exe+--format%3Dascii+%5BOK%5D;GRC+by+trade.+I+build+the+tools+I+wish+existed.;Currently+shipping%3A+VenderScope%2C+ContraAI%2C+claude-harness." alt="Typing SVG" />
 </a>
 
 <br />
