@@ -9,11 +9,10 @@
 </a>
 
 <br />
-<br />
 
-<samp>
-  I work where customer trust, compliance evidence, and security tooling overlap.
-</samp>
+<a href="https://github.com/syed-hassan7">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1500&color=CBA6F7&center=true&vCenter=true&width=600&lines=GRC+by+trade.+I+build+the+tools+I+wish+existed.;Compliance+Analyst+who+ships+production+code.;Currently+building%3A+VenderScope%2C+ContraAI%2C+claude-harness." alt="Typing SVG" />
+</a>
 
 <br />
 <br />
@@ -24,9 +23,6 @@
 <a href="https://zarak-os.vercel.app">
   <img src="https://img.shields.io/badge/Portfolio-313244?style=for-the-badge&logo=vercel&logoColor=CBA6F7" alt="Portfolio" />
 </a>
-<a href="https://github.com/syed-hassan7/zarak-os">
-  <img src="https://img.shields.io/badge/ZARAK__OS-CBA6F7?style=for-the-badge&logoColor=11111B&color=CBA6F7&labelColor=CBA6F7" alt="ZARAK_OS" />
-</a>
 <a href="mailto:syedzrk1000@gmail.com">
   <img src="https://img.shields.io/badge/Email-F38BA8?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
 </a>
@@ -35,120 +31,95 @@
 
 ---
 
-### `> whoami --brief`
+### `> whoami`
 
 ```yaml
-name: Syed Zarak Hassan
-location: Nottingham, United Kingdom
-
-current_role:
-  title: Compliance Analyst
-  company: Thrive Learning
-
-education:
-  - MSc Cyber Security, Nottingham Trent University
-  - BSc Software Engineering, Iqra National University
-
-focus:
-  - vendor risk and due diligence
-  - customer trust and security assurance
-  - compliance operations and process design
-  - security tooling and workflow automation
-
-currently_building:
-  - VenderScope
-  - ContraAI
-  - ZARAK_OS
+role: Compliance Analyst @ Thrive Learning
+based: Nottingham, UK
+educated: MSc Cyber Security (NTU) · BSc Software Engineering
+wired_for: vendor risk · customer trust · compliance ops · security tooling
 ```
+
+---
+
+### `> ./builds --top 3`
+
+<sub>click a build to expand</sub>
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+<details>
+<summary><b>VenderScope</b><br/><sub>24/7 passive risk intel for GRC teams ▸</sub></summary>
+<br/>
+
+Swaps annual vendor reviews for continuous drift monitoring across a 50+ vendor portfolio — risk surfaces as it happens, not once a year.
+
+`Python` `Flask` `PostgreSQL`
+
+**[→ repo](https://github.com/syed-hassan7/venderscope)**
+
+</details>
+
+</td>
+<td width="33%" valign="top">
+
+<details>
+<summary><b>ContraAI</b><br/><sub>AI-assisted contract review ▸</sub></summary>
+<br/>
+
+Turns clause analysis from an afternoon slog into minutes. Thrive-owned product — no public repo.
+
+`Next.js` `Supabase` `Claude API`
+
+<sub>_private — Thrive_</sub>
+
+</details>
+
+</td>
+<td width="33%" valign="top">
+
+<details>
+<summary><b>claude-harness</b><br/><sub>Makes AI coding agents reliable ▸</sub></summary>
+<br/>
+
+Portable skill-and-rules pack for AI coding agents. 10x's the engineering loop, not just the autocomplete.
+
+`Agent Tooling` `TypeScript`
+
+**[→ repo](https://github.com/syed-hassan7/claude-harness)**
+
+</details>
+
+</td>
+</tr>
+</table>
 
 ---
 
 ### `> impact.log`
 
 ```txt
-[THRIVE]    Manage a 50+ vendor portfolio across onboarding, risk reviews,
-            due diligence, and account health.
-
-[DPA]       Redesigned the company-wide DPA tracking process and reduced
-            time-to-approval by 70%.
-
-[ISO 9001]  Built six process flows from scratch to support a successful
-            Stage 1 audit and make ownership clearer for non-technical teams.
-
-[MDM]       Led a Kandji migration across 250+ endpoints with zero downtime
-            and reduced IT support tickets by 40%.
-
-[TRUST]     Support RFIs, security questionnaires, and customer-facing
-            technical assurance work.
-
-[NEXIQUE]   Owned 15+ client accounts end-to-end across onboarding,
-            delivery, communication, and relationship management.
-```
-
----
-
-### `> ls ./products`
-
-| Product | Why it exists | Stack |
-|--------|---------------|-------|
-| [**VenderScope**](https://github.com/syed-hassan7/venderscope) | Built from the pain of handling vendor risk manually across 50+ vendors. Designed to turn point-in-time reviews into continuous vendor risk intelligence. | JavaScript |
-| [**ContraAI**] | AI-assisted contract review platform built to make clause analysis faster, clearer, and more structured. | Next.js · Claude API |
-| [**ZARAK_OS**](https://github.com/syed-hassan7/zarak-os) | Cyber-noir portfolio OS built to present my work like an interactive environment rather than a static site. | TypeScript · Three.js |
-
----
-
-### `> cat ./operator-profile.txt`
-
-```txt
-I am interested in work that sits between:
-
-- customer trust
-- compliance evidence
-- security operations
-- technical onboarding
-- process design
-- useful internal tooling
-
-That usually means taking something messy,
-understanding the people stuck with it,
-and building a cleaner way through.
+[DPA]      Redesigned company-wide DPA tracking → 70% faster time-to-approval.
+[ISO 9001] Built 6 process flows from scratch for a clean Stage 1 audit pass.
+[MDM]      Led Kandji rollout across 250+ endpoints, zero downtime, -40% tickets.
+[TRUST]    Own security questionnaires + RFIs across a 50+ vendor portfolio.
 ```
 
 ---
 
 ### `> cat ./stack.txt`
 
-**Security, Trust & Compliance**
-
-![ISO 27001](https://img.shields.io/badge/ISO_27001-CBA6F7?style=flat-square)
-![SOC 2](https://img.shields.io/badge/SOC_2-CBA6F7?style=flat-square)
-![GDPR](https://img.shields.io/badge/GDPR-F5C2E7?style=flat-square)
-![Cyber Essentials](https://img.shields.io/badge/Cyber_Essentials-F9E2AF?style=flat-square)
-![Vendor Risk](https://img.shields.io/badge/Vendor_Risk-A6E3A1?style=flat-square)
-![Due Diligence](https://img.shields.io/badge/Due_Diligence-89DCEB?style=flat-square)
-![Customer Trust](https://img.shields.io/badge/Customer_Trust-FAB387?style=flat-square)
-![Security Questionnaires](https://img.shields.io/badge/Security_Questionnaires-CBA6F7?style=flat-square)
-
-**Tools & Platforms**
-
 ![Vanta](https://img.shields.io/badge/Vanta-7C3AED?style=flat-square)
 ![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white)
-![Kandji](https://img.shields.io/badge/Kandji_MDM-313244?style=flat-square)
-![Pulseway](https://img.shields.io/badge/Pulseway-89B4FA?style=flat-square)
 ![Splunk](https://img.shields.io/badge/Splunk-000000?style=flat-square&logo=splunk&logoColor=white)
-![Chronicle](https://img.shields.io/badge/Chronicle_SIEM-89B4FA?style=flat-square&logo=google&logoColor=1E1E2E)
-![Bitdefender](https://img.shields.io/badge/Bitdefender-F38BA8?style=flat-square)
-
-**Building With**
-
-![JavaScript](https://img.shields.io/badge/JavaScript-F9E2AF?style=flat-square&logo=javascript&logoColor=1E1E2E)
+![Kandji](https://img.shields.io/badge/Kandji_MDM-313244?style=flat-square)
+&nbsp;·&nbsp;
 ![TypeScript](https://img.shields.io/badge/TypeScript-89B4FA?style=flat-square&logo=typescript&logoColor=1E1E2E)
 ![Python](https://img.shields.io/badge/Python-F9E2AF?style=flat-square&logo=python&logoColor=1E1E2E)
-![SQL](https://img.shields.io/badge/SQL-A6E3A1?style=flat-square)
 ![Next.js](https://img.shields.io/badge/Next.js-CDD6F4?style=flat-square&logo=nextdotjs&logoColor=1E1E2E)
 ![Claude API](https://img.shields.io/badge/Claude_API-F38BA8?style=flat-square)
-![Vercel](https://img.shields.io/badge/Vercel-CDD6F4?style=flat-square&logo=vercel&logoColor=1E1E2E)
-![Linux](https://img.shields.io/badge/Linux-F9E2AF?style=flat-square&logo=linux&logoColor=1E1E2E)
 
 ---
 
@@ -173,7 +144,7 @@ and building a cleaner way through.
 
 <div align="center">
   <sub>
-    Building at the intersection of security, compliance, customer trust, and product.
+    Building at the intersection of security, compliance, and product.
     Open to GRC, customer trust, InfoSec, and compliance engineering roles in the UK.
   </sub>
 </div>
