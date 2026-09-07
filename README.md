@@ -1,12 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/syed-hassan7/syed-hassan7/main/assets/capsule-banner.svg" alt="Syed Zarak Hassan — animated capsule banner" width="100%" />
-
-<br />
-
-<a href="https://github.com/syed-hassan7">
-  <img src="https://readme-typing-svg.demolab.com?font=VT323&size=26&pause=1500&color=39FF14&center=true&vCenter=true&width=780&lines=%3E+init_zarak_os+--gateway+%5BOK%5D;GRC+by+trade.+I+build+the+tools+I+wish+existed.;Currently+shipping%3A+VenderScope%2C+ContraAI%2C+claude-harness." alt="Typing SVG" />
-</a>
+<img src="https://raw.githubusercontent.com/syed-hassan7/syed-hassan7/main/assets/radar-console.svg" alt="Syed Zarak Hassan — risk radar console" width="100%" />
 
 <br />
 <br />
@@ -23,99 +17,80 @@
 
 </div>
 
----
+### Building
 
-### `> whoami`
-
-```yaml
-role: Compliance Analyst @ Thrive Learning
-based: Nottingham, UK
-educated: MSc Cyber Security (NTU) · BSc Software Engineering
-wired_for: vendor risk · customer trust · compliance ops · security tooling
-```
-
----
-
-### `> ./builds --top 3`
-
-<sub>click a build to expand</sub>
-
-<table>
+<table width="100%">
 <tr>
-<td width="33%" valign="top">
+<td colspan="2" valign="top">
 
-<details>
-<summary><b>VenderScope</b><br/><sub>24/7 passive risk intel for GRC teams ▸</sub></summary>
-<br/>
+**[VenderScope →](https://github.com/syed-hassan7/venderscope)**
 
-Swaps annual vendor reviews for continuous drift monitoring across a 50+ vendor portfolio — risk surfaces as it happens, not once a year.
+24/7 passive risk intel for GRC teams. Swaps annual vendor reviews for continuous drift monitoring across a 50+ vendor portfolio — risk surfaces as it happens, not once a year.
 
 `Python` `Flask` `PostgreSQL`
 
-**[→ repo](https://github.com/syed-hassan7/venderscope)**
-
-</details>
-
 </td>
-<td width="33%" valign="top">
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-<details>
-<summary><b>ContraAI</b><br/><sub>AI-assisted contract review ▸</sub></summary>
-<br/>
+**ContraAI** <sub>_private, Thrive-owned_</sub>
 
-Turns clause analysis from an afternoon slog into minutes. Thrive-owned product — no public repo.
+AI-assisted contract review. Turns clause analysis from an afternoon slog into minutes.
 
 `Next.js` `Supabase` `Claude API`
 
-<sub>_private — Thrive_</sub>
-
-</details>
-
 </td>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
-<details>
-<summary><b>claude-harness</b><br/><sub>Makes AI coding agents reliable ▸</sub></summary>
-<br/>
+**[claude-harness →](https://github.com/syed-hassan7/claude-harness)**
 
 Portable skill-and-rules pack for AI coding agents. 10x's the engineering loop, not just the autocomplete.
 
-`Agent Tooling` `TypeScript`
-
-**[→ repo](https://github.com/syed-hassan7/claude-harness)**
-
-</details>
+`TypeScript` `Agent Tooling`
 
 </td>
 </tr>
 </table>
 
----
+### Experience
 
-### `> impact.log`
+<table width="100%">
+<tr>
 
-```txt
-[DPA]      Redesigned company-wide DPA tracking → 70% faster time-to-approval.
-[ISO 9001] Built 6 process flows from scratch for a clean Stage 1 audit pass.
-[MDM]      Led Kandji rollout across 250+ endpoints, zero downtime, -40% tickets.
-[TRUST]    Own security questionnaires + RFIs across a 50+ vendor portfolio.
-```
+<td align="center" width="20%">
 
----
+### ⚡ 70%
+<sub>faster DPA approval</sub>
 
-### `> cat ./stack.txt`
+</td>
+<td align="center" width="20%">
 
-![Vanta](https://img.shields.io/badge/Vanta-7C3AED?style=flat-square)
-![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white)
-![Splunk](https://img.shields.io/badge/Splunk-000000?style=flat-square&logo=splunk&logoColor=white)
-![Kandji](https://img.shields.io/badge/Kandji_MDM-313244?style=flat-square)
-&nbsp;·&nbsp;
-![TypeScript](https://img.shields.io/badge/TypeScript-89B4FA?style=flat-square&logo=typescript&logoColor=1E1E2E)
-![Python](https://img.shields.io/badge/Python-F9E2AF?style=flat-square&logo=python&logoColor=1E1E2E)
-![Next.js](https://img.shields.io/badge/Next.js-CDD6F4?style=flat-square&logo=nextdotjs&logoColor=1E1E2E)
-![Claude API](https://img.shields.io/badge/Claude_API-F38BA8?style=flat-square)
+### 🧩 6
+<sub>ISO 9001 process flows</sub>
 
----
+</td>
+<td align="center" width="20%">
+
+### 🖥️ 250+
+<sub>endpoints, zero downtime</sub>
+
+</td>
+<td align="center" width="20%">
+
+### 🎟️ -40%
+<sub>IT tickets post-MDM</sub>
+
+</td>
+<td align="center" width="20%">
+
+### 🛡️ 50+
+<sub>vendor portfolio owned</sub>
+
+</td>
+
+</tr>
+</table>
 
 ### `> ./snake.sh`
 
@@ -134,7 +109,7 @@ Portable skill-and-rules pack for AI coding agents. 10x's the engineering loop, 
 
 </div>
 
----
+<br />
 
 <div align="center">
   <sub>
